@@ -10,6 +10,25 @@
       "enum": ["full-width", "half-width", "both"],
       "default": "both",
       "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "Enter the instruction text for this component.",
+      "translatable": true
+    },
+    "somethingElse": {
+      "type": "string",
+      "required": true,
+      "default": "Enter your something else here.",
+      "title": "Text to say hello to",
+      "inputType": "Text",
+      "validators": [],
+      "help": "When output the component will say Hello followed by the text you enter",
+      "translatable": true
     }
   }
 }
